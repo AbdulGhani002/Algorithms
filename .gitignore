@@ -1,2 +1,6 @@
 *.exe
 .gitignore
+.idea
+.vscode
+cmake-build-debug/
+CMakeLists.txt
