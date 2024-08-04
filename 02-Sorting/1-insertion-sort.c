@@ -20,21 +20,15 @@ int main() {
         printf("Memory not allocated.\n");
         exit(0);
     }
-
     for (int i = 0; i < 20; i++) {
         array[i] = rand();
     }
-
     insertion_sort(array);
-
     printf("Sorted array: \n");
     for (int i = 0; i < 20; i++) {
         printf("%d ", array[i]);
     }
     printf("\n");
-
-
     free(array);
-
     return 0;
 }
