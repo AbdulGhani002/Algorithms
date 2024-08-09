@@ -9,4 +9,6 @@ add_executable(Algorithms
         01-Arrays/3-call-by-value-to-structure.c
         01-Arrays/4-call-by-pointer-to-structure.c
         01-Arrays/5-templeate-class.cpp
-        02-Sorting/1-insertion-sort.c)
+        02-Sorting/1-insertion-sort.c
+        4-ArrayLists/2-arraylist.cpp
+        4-ArrayLists/2-arraylist.cpp)
